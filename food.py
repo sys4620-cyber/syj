@@ -116,6 +116,8 @@ if st.session_state.selected_food:
                 # 구글 시트에 주소 열이 없을 경우를 대비한 예외 처리 포함 출력
                 address = row['주소'] if '주소' in final_df.columns and pd.notna(row['주소']) else "등록된 주소 없음"
                 st.write(f"**주소:** {address}")
+                name = row['작성자'] if '작성자' in final_df.columns and pd.notna(row['주소']) else "무명"
+                st.write(f"**작성자:** {name}")
     else:
         st.info("조건에 일치하는 맛집이 없습니다.")
 
