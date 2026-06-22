@@ -67,6 +67,7 @@ if st.session_state.selected_food:
         with st.expander(f"⭐ {row['만족도']} - {row['장소']}"):
             st.write(f"**카테고리:** {row['카테고리']}")
             st.write(f"**대표 음식:** {row['음식']}")
+            st.write(f"**주소:** {row['주소']}")
 
 # 초기화 버튼
 if st.sidebar.button("선택 초기화"):
