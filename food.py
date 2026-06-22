@@ -4,8 +4,8 @@ from streamlit_gsheets import GSheetsConnection
 
 # 앱 제목
 st.title("🍴 맛집 검색")
-st.write("구글 시트와 연동!" \
-"https://docs.google.com/spreadsheets/d/15cE-_kb8MqX2khwr0zo8tbuU3hB8KO7UoY88rZCpHP4/edit?usp=sharing")
+st.write("구글 시트와 연동, 링크 :
+         https://docs.google.com/spreadsheets/d/15cE-_kb8MqX2khwr0zo8tbuU3hB8KO7UoY88rZCpHP4/edit?usp=sharing")
 
 # --- 구글 시트 데이터 로드 ---
 sheet_url = "https://docs.google.com/spreadsheets/d/15cE-_kb8MqX2khwr0zo8tbuU3hB8KO7UoY88rZCpHP4/edit?usp=sharing"
