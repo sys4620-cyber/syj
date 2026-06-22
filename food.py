@@ -60,7 +60,7 @@ if st.session_state.selected_type:
     st.divider()
     st.subheader(f"2단계: [{st.session_state.selected_type}] 카테고리 선택")
     
-    custom_order = ["한식", "일식", "중식", "양식", "분식", "카페"]
+    custom_order = ["한식", "일식", "중식", "양식", "분식" "아시안", "카페"]
     # 1차 필터링된 데이터 내에 존재하는 카테고리만 지정된 순서로 나열
     categories = [cat for cat in custom_order if cat in filtered_df['카테고리'].unique()]
     
