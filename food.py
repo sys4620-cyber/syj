@@ -4,7 +4,7 @@ from streamlit_gsheets import GSheetsConnection
 
 # 앱 제목
 st.title("🍴 맛집 검색")
-st.write("구글 시트와 연동, 링크 :")
+st.write("구글 시트 연동, 갱신주기 : 10분")
 # 🔗 구글 시트 바로가기 링크 버튼 추가
 st.link_button("구글 시트(DB) 바로가기", "https://docs.google.com/spreadsheets/d/15cE-_kb8MqX2khwr0zo8tbuU3hB8KO7UoY88rZCpHP4/edit?usp=sharing")
 
